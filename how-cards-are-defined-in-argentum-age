@@ -62,55 +62,20 @@
 			<div class="centerbox">
 
 				<div id="description">
-					<p><cite class="stylizedbrand">Argentum Age</cite> is an <a href="https://opensource.org/faq#osd">open source</a> digital collectible card game with tactical positioning, and a focus on limited randomness to allow for maximum player skill. Argentum Age aims to provide all the excitement of a collectible card game without any gameplay altering In-App Purchases or other "pay to win" elements. A single player campaign mode as well as multiplayer are both available.</p>
-					
-					<p>Build your own deck or use one of our pre-created ones. Playing the game is the only way to level up and collect more cards, and the game is designed to make for the most enjoyable possible player progression.  Still under active development, Argentum Age is already playable in an open beta and we welcome participation from the community in its development. Download it now and let us know what you think!</p>
 
-					<p>The <a href="https://discord.gg/0s6mSoZ1vJPlvcIw">Discord Server</a> is the best way to get involved with the Argentum Age community and chat with developers.</p>
-				</div>
-
-				<div id="download-recommended">
-					
-					<ul id="dlstable" class="downloads">
-					<li><p><h2>Download</h2></p></li>
-					
-					<li class="windows"><a href="http://theargentlark.com/files/ArgentumAge-setup.exe"><i class="downloadicon downloadicon-windows" aria-hidden="true"></i><span class="os">Download for Windows</span></a></li>
-					
-		<li class="apple">
-					
-		<a href="http://theargentlark.com/files/ArgentumAge-OSX.zip">
-		<i class="downloadicon downloadicon-apple" aria-hidden="true"></i>
-		<span class="os">Download for MacOS</span></a></li>
-		<li class="linux">
-		<a href="http://theargentlark.com/files/argentum-age.tar.bz2"><i class="downloadicon downloadicon-linux" aria-hidden="true"></i><span class="os">Download for Linux</span></a></li>
-		<li class="source">
-		<a href="https://github.com/davewx7/citadel/wiki/Building-from-Source"><span class="os">Build from Source</span></a></li>
-		</ul>
-
-				</div>
-
-				<div id="showcase">
-					<div id="showcase-current">
-						<iframe id="showcase-object" width="854" height="480" src="https://www.youtube.com/embed/hXju4I_T33I" frameborder="0" allowfullscreen></iframe>
-					</div>
-
-					<script>(function(E){var N="<svg id='spinner'><circle cx='20' cy='20' r='18'/></svg>";var C=function(ac,k,ae,j,ad){this.type=ac;this.href=k;this.thumb=ae;this.alt=j===undefined?"":j;this.embed=ad===undefined?k:ad;if(this.type=="vyt"&&!k&&ad){this.href=this.embed.replace(/^https?:\/\/(www\.)?youtube\.com\/embed\//,"https://www.youtube.com/watch?v=")}this.makeListItem=function(){return"<li><a class='"+this.type+"' href='"+this.href+"'>"+(this.type=="vyt"?"<i aria-hidden='true'/>":"")+"<img src='"+this.thumb+"' alt='"+this.alt+"'/></a></li>"}};var O="screenshots/screen",h=".jpg",s="256",o=[{count:5}];var n=E("#showcase-object").attr("src");var c=[new C("vyt",null,"screenshots/trailer-thumb.png","Trailer",n)];for(var T=0;T<o.length;++T){var i=o[T];for(var U=1;U<=i.count;++U){var Y=O+"-"+U+"-"+s+h,D=O+"-"+U+h;c.push(new C("pic",D,Y))}}function F(j){return"<a class='screenshots-arrow' role='button' id='screenshots-"+j+"' href='#' title='Scroll "+j+"'><i aria-hidden='true'/></a>"}var H="";for(var U=0;U<c.length;++U){H+=c[U].makeListItem()}E("<div id='screenshots-strip'>"+F("left")+"<ul id='screenshots-scrollarea'>"+H+"</ul>"+F("right")+"</div>").appendTo("#showcase");var X=E("#screenshots-scrollarea");var I,Q,y=false,R=300,Z=50,S=854,p=480;var t=E("#showcase-current"),q,M,b,P;function d(ac){if(ac<0||ac>=c.length||ac==Q){return}var j=X.find("a")[ac],k=c[ac];switch(k.type){case"pic":if(k.type!==I){t.html("<div id='showcase-screenshot-container'><a title='Click to enlarge'><span id='showcase-screenshot-placeholder'/></a><div id='showcase-loading' aria-hidden='true' hidden><div>"+N+"</div></div></div>");q=t.find("#showcase-loading");P=t.find("a")}M=P.children();b=E("<img alt='"+k.alt+"'/>");b.prependTo(P);b.on("load",function(){y=true;q.hide();P.attr("href",k.href);M.fadeOut(R,function(){M.remove();M=b=null})});y=false;b.attr("src",k.embed);setTimeout(function(){if(!y){q.fadeIn(Z)}},100);break;case"vyt":curScreenshot=newScreenshot=null;if(k.type===I){t.find("iframe").attr("src",k.embed)}else{t.html("<div id='showcase-video-container'><iframe id='showcase-object' width='"+S+"' height='"+p+"' frameborder='0' src='"+k.embed+"' allowfullscreen/></div>")}break;default:curScreenshot=newScreenshot=null;t.html("<span>:(</span>")}X.find("a").not(j).removeClass("current");E(j).toggleClass("current");I=k.type;Q=ac}X.children().each(function(j){E(this).click(function(){d(j);return false})});d(0);var aa=E("#screenshots-strip"),B=E("#screenshots-left"),a=E("#screenshots-right");var m=-1,x=1,v=100,e=100,r=250,A,G;function g(){if(A!==undefined){A=clearInterval(A)}return false}function l(ac){var k=E(),ae=E(),ad=X.scrollLeft(),j=X[0].scrollWidth-X[0].clientWidth;if(ad<=0){k=k.add(B);if(G==m){g()}}else{ae=ae.add(B)}if(ad>=j){k=k.add(a);if(G==x){g()}}else{ae=ae.add(a)}if(k){k.fadeOut(ac)}if(ae){ae.fadeIn(ac)}}l(0);function J(j){X.animate({scrollLeft:X.scrollLeft()+v*j},{duration:80,complete:function(){l(r)}})}function f(j){G=j;J(j);A=setInterval(J,e,j);return false}B.add(a).click(function(){return false});B.mousedown(function(){return f(m)});a.mousedown(function(){return f(x)});B.add(a).mouseup(function(){return g()});B.add(a).mouseleave(function(){return g()});var z=aa.get(0),ab=[],K,u=0,w=20;function V(ac){K=false;for(var k=0;k<ac.changedTouches.length;++k){ab.push(ac.changedTouches[k])}u=ac.touches[0].pageX;setTimeout(function(){K=true},250)}function W(k){k.preventDefault();var ae=k.touches[0].pageX;var ac=u-ae;u=ae;var ad=X.scrollLeft();var j=X[0].scrollWidth-X[0].clientWidth;X.scrollLeft(ad+ac);l(r)}function L(j){if(j.touches.length&&j.touches[0]!==undefined&&j.touches[0].pageX!=u){j.preventDefault()}ab.length=0}z.addEventListener("touchstart",V,false);z.addEventListener("touchmove",W,false);z.addEventListener("touchend",L,false);z.addEventListener("touchcancel",L,false)}(jQuery));</script>
-				</div>
-
-				<noscript><a id="screenshots-more" href="https://wiki.wesnoth.org/Screenshots">Screenshots <b>&#8250;</b></a></noscript>
-
-				<div id="features">
-					<h2>Features</h2>
-
-					<ul>
-						<li>A single player campaign mode with storylines, quests and adventures, with rewards for completion.</li>
-						<li>Online multiplayer, challenge friends and strangers alike. The ability to observe both single player and multiplayer games.</li>
-						<li>A tactical board on which creatures are summoned and battle each other while you try to influence the outcome by casting spells.</li>
-						<li>Around <a href="http://theargentlark.com/david/cards/all-cards.html">200 cards</a> with more being added all the time!</li>
-						<li>Beautiful hand-drawn card art from our talented artists.</li>
-						<li>Highly moddable engine, suitable for making other card games.</li>
-						<li>Cross-platform compatible, available on Microsoft Windows, Apple MacOS, and Linux.</li>
-					</ul>
+					<h1>Resource moved permanently.</h1>
+					<p>
+						This resource has moved
+						permanently to
+						&lt;&lt;<a
+						href="http://github.com/davewx7/citadel/wiki/HowToCreateCards/">http://github.com/davewx7/citadel/wiki/HowToCreateCards/</a>&gt;&gt;.
+					</p>
+					<!-- This link gets added because this
+					   is a possible origin for this page.
+					-->
+					<p>Back to
+						<a href="https://www.instagram.com/p/-Vgt6FTAUS/?taken-by=argentumage">Instagram</a>.
+					</p>
 
 				</div>
 
