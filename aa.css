@@ -4607,6 +4607,7 @@
  }
  .github-bigbutton,
  .reddit-bigbutton,
+ .facebook-bigbutton,
  .discord-bigbutton {
      border-radius: 4px;
      display: inline-block;
@@ -4617,6 +4618,8 @@
  .github-bigbutton:active,
  .reddit-bigbutton:hover,
  .reddit-bigbutton:active,
+ .facebook-bigbutton:hover,
+ .facebook-bigbutton:active,
  .discord-bigbutton:hover,
  .discord-bigbutton:active {
      text-decoration: none
@@ -4660,6 +4663,26 @@
  .reddit-bigbutton:hover,
  .reddit-bigbutton:active {
      background: #e24f0b
+ }
+ .facebook-bigbutton {
+     background: #2050a0;
+     padding-left: .3em
+ }
+ .facebook-bigbutton > span {
+     font-weight: bold;
+     font-size: 1.1em
+ }
+ .facebook-bigbutton > i {
+     font-size: 3em
+ }
+ #social-trail .facebook-bigbutton,
+ .facebook-bigbutton .facebook-icon {
+     color: #fff;
+     vertical-align: middle
+ }
+ .facebook-bigbutton:hover,
+ .facebook-bigbutton:active {
+     background: #0c3c8c
  }
  #social-trail .discord-bigbutton {
      background: #7289da;
