@@ -29,6 +29,14 @@
 		})();
 	</script>
 
+	<!-- Demanded by the _Like_ and _Share_ facebook buttons. -->
+	<meta property="og:url" content="https://www.facebook.com/ArgentLark/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Your Website Title" />
+	<meta property="og:description" content="Your description" />
+	<meta property="og:image" content="https://www.your-domain.com/path/image.jpg" />
+
+	<!-- Custom code. -->
 	<script type="text/javascript">
 		(function() {
 
@@ -150,6 +158,9 @@
 					<li><a class="discord-button" href="https://discord.gg/0s6mSoZ1vJPlvcIw" title="Argentum Age Discord Server"><i class="discord-icon" aria-hidden="true"></i><span class="sr-label">Discord Server</span></a></li>
 					<li><a class="github-button" href="https://github.com/davewx7/citadel" title="Argentum Age on GitHub"><i class="github-icon" aria-hidden="true"></i><span class="sr-label">GitHub Project</span></a></li>
 					<li><a class="reddit-button" href="https://www.reddit.com/r/ArgentumAge/" title="Argentum Age Subreddit"><i class="reddit-icon" aria-hidden="true"></i><span class="sr-label">Argentum Age Subreddit</span></a></li>
+					<li>
+						<a class="facebook-button" href="https://www.facebook.com/ArgentLark/" title="Argentum Age on Facebook"><i class="facebook-icon" aria-hidden="true"></i><span class="sr-label">Facebook Page</span></a>
+					</li>
 				</ul>
 			</div>
 
@@ -190,6 +201,19 @@
 				<div id="twitter-widget">
 					<a href="https://twitter.com/Argentum_Age" class="twitter-follow-button" data-show-count="false">Follow @Argentum_Age</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 				</div>
+
+				<div id="fb-root"></div>
+				<script>
+					(function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0];
+						if (d.getElementById(id)) return;
+						js = d.createElement(s); js.id = id;
+						js.src = '//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+						fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));
+				</script>
+				<div class="fb-like" data-href="https://www.facebook.com/ArgentLark/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true">
+				</div>
 			</div>
 
 			<div class="social-buttons-group">
@@ -209,7 +233,7 @@
 <div id="footer-sep"></div>
 
 <div id="footer"><div id="footer-content"><div>
-	Copyright &copy; 2016&ndash;2017</a>.<br />
+	Copyright &copy; 2016&ndash;2018</a>.<br />
 	Site design Copyright &copy; 2017&ndash;2018 by Iris Morelle.	
 </div></div></div>
 
