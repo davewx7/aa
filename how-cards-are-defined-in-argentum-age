@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html class="no-js homepage" lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montaga%7COpen+Sans:400,400i,700,700i" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16" />
+	<link rel="stylesheet" type="text/css" href="./aa.css" />
+
+	<!-- This gets most people immediately redirected to a location
+	   somewhat related to this locator
+	   'how-cards-are-defined-in-argentum-age'. -->
+	<script type="text/javascript">
+		window.location.replace(
+			"http://github.com/davewx7/citadel/wiki/HowToCreateCards"
+		);
+	</script>
+
+	<title>Argentum Age</title>
+
+	<script src="jquery-3.2.1.min.js"></script>
+
+	<script src="modernizr.js"></script>
+
+	<!-- Google Analytics -->
+	<script>
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-64958804-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</head>
+
+<body>
+
+
+<div id="main">
+
+	<div id="homebg1">
+		<div id="intro" role="banner">
+			<a id="biglogo" href="/" aria-label="Argentum Age logo"><span aria-hidden="true"></span></a>
+
+			<div id="nav">
+				<ul id="navlinks">
+					<li><a href="/">Home</a></li>
+					<li><a href="community.html">Community</a></li>
+					<li><a href="create.html">Create</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+
+				<ul id="sociallinks">
+					<li><a class="twitter-button" href="https://twitter.com/Argentum_Age" title="Follow @Argentum_Age on Twitter"><i class="twitter-icon" aria-hidden="true"></i><span class="sr-label">Follow @Argentum_Age on Twitter</span></a></li>
+					<li><a class="discord-button" href="https://discord.gg/0s6mSoZ1vJPlvcIw" title="Argentum Age Discord Server"><i class="discord-icon" aria-hidden="true"></i><span class="sr-label">Discord Server</span></a></li>
+					<li><a class="github-button" href="https://github.com/davewx7/citadel" title="Argentum Age on GitHub"><i class="github-icon" aria-hidden="true"></i><span class="sr-label">GitHub Project</span></a></li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="homebg2">
+		<div id="overview">
+			<div class="centerbox">
+
+				<div id="description">
+
+					<!-- These contents should get rendered
+					   in case JS is not enabled or anyhow
+					   not available. -->
+
+					<h1>Resource moved permanently.</h1>
+					<p>
+						This resource has moved
+						permanently to
+						&lt;&lt;<a
+						href="http://github.com/davewx7/citadel/wiki/HowToCreateCards/">http://github.com/davewx7/citadel/wiki/HowToCreateCards/</a>&gt;&gt;.
+					</p>
+					<!-- This link gets added because this
+					   is a possible origin for this page.
+					-->
+					<p>Back to
+						<a href="https://www.instagram.com/p/-Vgt6FTAUS/?taken-by=argentumage">Instagram</a>.
+					</p>
+
+				</div>
+
+				<div class="reset"></div>
+			</div> <!-- .centerbox -->
+		</div> <!-- #overview -->
+	</div> <!-- #homebg2 -->
+
+	<div id="homebg4" class="topdivider2">
+
+		<div class="centerbox topdivider flexfill">
+			<div id="support">
+				<h2>Join</h2><span id="bgsupport"></span>
+
+				<p>Play the game in both single player and multiplayer modes, and join our Discord server to interact with the community.</p>
+
+				<ul>
+					<li><a href="https://github.com/davewx7/citadel/issues">Reporting Bugs</a></li>
+					<li><a href="http://theargentlark.com/david/cards/all-cards.html">Card List</a></li>
+				</ul>
+			</div>
+
+			<div id="contribute">
+				<h2>Contribute</h2><span id="bgcontrib"></span>
+
+				<p>Argentum Age is designed with moddability in mind. Read the <a href="https://github.com/davewx7/citadel/wiki/HowToCreateCards">card creation guide</a> to get a sense for how cards are created. <a href="https://github.com/davewx7/citadel/wiki/GettingStartedAsADeveloper">Get set up as a developer</a> to start modding the game. Then come to the Discord server and chat with us about how you can get involved.</p>
+
+			</div>
+
+			<div class="reset"></div>
+		</div>
+
+		<div id="social-trail">
+			<div class="social-buttons-group">
+				<a class="discord-bigbutton" href="https://discord.gg/0s6mSoZ1vJPlvcIw" title="Join our Discord server!"><span class="sr-label">Discord</span></a>
+			</div>
+
+			<div class="social-buttons-group">
+				<div id="twitter-widget">
+					<a href="https://twitter.com/Argentum_Age" class="twitter-follow-button" data-show-count="false">Follow @Argentum_Age</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+			</div>
+
+			<div class="social-buttons-group">
+				<a class="github-bigbutton" href="https://github.com/davewx7/citadel" title="Check out Argentum Ages source code on GitHub!"><i class="github-icon"></i><span>GitHub</span></a>
+			</div>
+
+			<div class="reset"></div>
+		</div>
+	</div>
+
+</div>
+
+<div id="footer-sep"></div>
+
+<div id="footer"><div id="footer-content"><div>
+	Copyright &copy; 2016&ndash;2017</a>.<br />
+</div></div></div>
+
+<script>(function(a){a('a[href*="#"]:not([href="#"])').click(function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var c=this.hash;var b=a(c);b=b.length?b:a("[name="+c.slice(1)+"]");if(b.length){a("html,body").animate({scrollTop:b.offset().top},{duration:500,complete:function(){window.location.href=c}});return false}}})}(jQuery));</script>
+</body>
+</html>
